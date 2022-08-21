@@ -259,8 +259,7 @@ h2 {
 }
 .address {
   color:var(--second-color);
-  margin-top: 30px;
-  margin-bottom: 9px;
+  
 }
 footer {
   display: flex;
