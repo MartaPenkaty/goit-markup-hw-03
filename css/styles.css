@@ -225,8 +225,8 @@ h2 {
 
 .team-list > li {
   background-color: var(--second-color);
-  /*padding-top: 50px; */
-  padding-bottom: 94px;
+  padding-top: 50px;
+  /*padding-bottom: 94px;*/
   /*padding-bottom: 30px;*/
 }
 
