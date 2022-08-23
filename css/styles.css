@@ -1,13 +1,12 @@
 :root {
   --main-font: "Roboto", sans-serif;
   --secondary-font: "Raleway", sans-serif;
- --main-color:  #2196F3;
---brand-color: #212121; 
---second-color: #FFFFFF;
---description-color: #757575;
---background-color: #2f303a;
---second-background-color: #f5f4fa;
-
+  --main-color: #2196f3;
+  --brand-color: #212121;
+  --second-color: #ffffff;
+  --description-color: #757575;
+  --background-color: #2f303a;
+  --second-background-color: #f5f4fa;
 }
 
 * {
@@ -16,8 +15,8 @@
 }
 body {
   font-family: var(--main-font);
-      color: var(--brand-color);
-    background: var(--second-color);
+  color: var(--brand-color);
+  background: var(--second-color);
 }
 
 /*=== COMPONENT ====*/
@@ -39,7 +38,7 @@ a {
   text-decoration: none;
 }
 ul {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 h1 {
@@ -56,7 +55,7 @@ h4 {
   line-height: 1.143;
   letter-spacing: 0.03em;
   text-transform: uppercase;
- color: var(--brand-color);
+  color: var(--brand-color);
   margin-top: 0;
   margin-bottom: 10px;
 }
@@ -66,7 +65,7 @@ h2 {
   line-height: 1.667;
   text-align: center;
   letter-spacing: 0.03em;
- color: var(--brand-color);
+  color: var(--brand-color);
 }
 /*=== END COMPONENT ====*/
 
@@ -158,7 +157,7 @@ h2 {
 }
 .main-button:hover,
 .main-button:focus {
- color: var(--second-color);
+  color: var(--second-color);
   background-color: var(--main-color);
   border-color: var(--main-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -167,7 +166,7 @@ h2 {
 
 .banner {
   padding-top: 280px;
-  background-color: var(--background-color) ;
+  background-color: var(--background-color);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -193,7 +192,7 @@ h2 {
   font-size: 16px;
   line-height: 1.187;
   letter-spacing: 0.03em;
- color: var(--brand-color);
+  color: var(--brand-color);
   text-align: center;
   margin-bottom: 10px;
 }
@@ -203,7 +202,7 @@ h2 {
   font-size: 16px;
   line-height: 1.187;
   letter-spacing: 0.03em;
- color: var(--description-color);
+  color: var(--description-color);
   text-align: center;
 }
 
@@ -221,12 +220,14 @@ h2 {
   flex-direction: row;
   gap: 30px;
   margin-top: 50px;
-   justify-content: center;
+  justify-content: center;
 }
 
 .team-list > li {
   background-color: var(--second-color);
-  padding-bottom: 30px;
+  padding-top: 50px;
+  padding-bottom: 94px;
+  /*padding-bottom: 30px;*/
 }
 
 .team-list-item > .team-images {
@@ -235,8 +236,7 @@ h2 {
 }
 
 .team {
-  background-color: var(--second-background-color) ;
-  
+  background-color: var(--second-background-color);
 }
 /*===  END MAIN === */
 /* ==== FOOTER === */
@@ -257,14 +257,13 @@ h2 {
   color: var(--main-color);
 }
 .address {
-  color:var(--second-color);
-  
+  color: var(--second-color);
 }
 footer {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  background-color: var(--background-color) ;
+  background-color: var(--background-color);
 }
 
 .footer-description {
@@ -358,7 +357,7 @@ footer {
 .third-btn:focus,
 .fourth-btn:focus,
 .fifth-btn:focus {
-  color:var(--second-color);
+  color: var(--second-color);
   background: var(--main-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
