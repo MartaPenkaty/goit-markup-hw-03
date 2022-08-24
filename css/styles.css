@@ -220,7 +220,11 @@ h2 {
   flex-direction: row;
   gap: 30px;
   margin-top: 50px;
+}
+.our-team {
   justify-content: center;
+  width: 1170px;
+  margin: auto;
 }
 
 .team-list > li {
@@ -234,7 +238,10 @@ h2 {
 
 .team {
   background-color: var(--second-background-color);
+  width: 1600px;
+  padding-bottom: 94px;
 }
+
 /*===  END MAIN === */
 /* ==== FOOTER === */
 .address-phone-number-footer,
