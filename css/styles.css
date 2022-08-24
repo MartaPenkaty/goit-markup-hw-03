@@ -221,17 +221,13 @@ h2 {
   gap: 30px;
   margin-top: 50px;
   justify-content: center;
-  width: 1170px;
-  margin: auto;
 }
 
 .team-list > li {
   background-color: var(--second-color);
-  /* padding-bottom: 94px; */
 }
 
-/* .team-list-item > */
-.team-images {
+.team-list-item > .team-images {
   margin-bottom: 30px;
   object-fit: cover;
 }
