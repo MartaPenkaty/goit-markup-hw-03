@@ -237,6 +237,8 @@ h2 {
 
 .team {
   background-color: var(--second-background-color);
+  width: 1600px;
+  padding-bottom: 94px;
 }
 /*===  END MAIN === */
 /* ==== FOOTER === */
