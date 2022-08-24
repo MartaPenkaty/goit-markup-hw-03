@@ -222,6 +222,7 @@ h2 {
   margin-top: 50px;
   justify-content: center;
   width: 1170px;
+  margin: auto;
 }
 
 .team-list > li {
