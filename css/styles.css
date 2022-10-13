@@ -223,7 +223,7 @@ h2 {
 }
 
 .our-team {
-  width: 1600px;
+  background-color: var(--second-background-color);
 }
 
 .team-list > li {
@@ -236,7 +236,6 @@ h2 {
 }
 
 .team {
-  background-color: var(--second-background-color);
   width: 1170px;
   margin: auto;
   padding-top: 50px;
