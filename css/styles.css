@@ -93,6 +93,7 @@ h2 {
 }
 .navigation-list-item-link {
   text-decoration: none;
+  color: var(--brand-color);
 }
 .navigation-list-item-link:hover,
 .navigation-list-item-link:focus,
@@ -165,13 +166,12 @@ h2 {
 }
 
 .banner {
-  padding-top: 280px;
+  height: 600px;
   background-color: var(--background-color);
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding-bottom: 280px;
 }
 
 .asset-list {
@@ -184,8 +184,9 @@ h2 {
   flex-direction: row;
   gap: 30px;
 }
-.asset-list-description {
-  margin-bottom: -94px;
+
+.section:first-child {
+  padding-bottom: 0;
 }
 .team-member {
   font-weight: 500;
@@ -196,7 +197,9 @@ h2 {
   text-align: center;
   margin-bottom: 10px;
 }
-
+.team-member-job {
+  padding-bottom: 30px;
+}
 .team-list-item {
   font-weight: 400;
   font-size: 16px;
@@ -241,6 +244,7 @@ h2 {
   padding-top: 50px;
   padding-bottom: 94px;
   justify-content: center;
+  background: #f5f4fa;
 }
 
 /*===  END MAIN === */
@@ -279,6 +283,9 @@ footer {
   display: flex;
   flex-direction: column;
   gap: 9px;
+}
+.navigation-logo-second-footer {
+  color: var(--second-color);
 }
 /* ==== END FOOTER === */
 .image-title {
