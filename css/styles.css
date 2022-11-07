@@ -130,12 +130,9 @@ h2 {
   border-bottom-style: solid;
   border-bottom-color: #ececec;
 }
-.navigation-list > li {
-  display: inline-block;
-}
-
-.navigation-list:nth-child(-n + 2) > li {
-  margin-right: 46px;
+.navigation-list {
+  display: flex;
+  gap: 46px;
 }
 
 .address > li {
@@ -144,6 +141,13 @@ h2 {
 
 .address:last-child > li {
   margin-left: 50px;
+}
+.nav-wrapper-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 .logo {
   margin-right: 93px;
@@ -240,6 +244,7 @@ h2 {
 
 .team-list > li {
   background-color: var(--second-color);
+  height: 368px;
 }
 
 .team-list-item > .team-images {
